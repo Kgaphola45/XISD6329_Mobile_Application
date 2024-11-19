@@ -1,5 +1,5 @@
 # Golden Years Old Age Home Management System
-#Please note that for mobile application, we have included PHP API in the project directory in folder named "Login" that has to be inside htdocs if you are using XAMPP, or WWW if you are using Wampserver
+# Please note that for mobile application, we have included PHP API in the project directory in folder named "Login" that has to be inside htdocs if you are using XAMPP, or WWW if you are using Wampserver
 ## Overview
 
 This project is a web-based management system for Golden Years Old Age Home. It provides an interface for administrators (receptionists) to manage caregivers, elderly residents, appointments, and related information.
