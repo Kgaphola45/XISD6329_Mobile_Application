@@ -7,7 +7,7 @@ if (isset($_POST['email']) && isset($_POST['password'])) {
     $password = validate($_POST['password']);
 
     // Prepare the SQL statement
-    $stmt = $conn->prepare("SELECT * FROM patreg WHERE email=? AND password=?");
+    $stmt = $conn->prepare("SELECT * FROM user WHERE email=? AND password=?");
     $stmt->bind_param("ss", $email, $password);
     $stmt->execute();
     $result = $stmt->get_result();
